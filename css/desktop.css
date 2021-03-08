@@ -1,0 +1,176 @@
+.wrapper{
+  max-width: 1366px;
+}
+
+.header .wrapper{
+  padding: 0 89px;
+}
+
+.hamburger{
+  display: none;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content h1{
+  margin: 36.5px 0;
+}
+
+.header-content .nav{
+  display: inline-block;
+  width: fit-content;
+  margin: 32px 0;
+}
+
+.header-content .nav ul{
+  display: inline-block;
+}
+
+.header-content .nav ul li{
+  margin-right: 40px;
+}
+
+.header-content .nav ul li:last-child{
+  margin-right: 0;
+}
+.whoIAm{
+  margin-top: 0;
+}
+
+.whoIAm .wrapper {
+  margin: 80px 345px;
+  padding:0 ;
+}
+
+.whoIAm .wrapper .whoIAm-content{
+  padding: 0;
+}
+
+.whoIAm-content h2{
+  font-size: 72px;
+  line-height: 80px;
+}
+
+.whoIAm-content p:first-of-type{
+  font-size: 24px;
+  line-height: 38.83px;
+}
+
+.whoIAm-content p{
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.projects .project{
+  margin: 0 83px 0 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project:nth-child(2){
+  margin-left: 83px;
+  margin-right: 170px;
+}
+
+.project:nth-child(2) > picture{
+  grid-column: 1/2;
+}
+
+.project:nth-child(2) > .details-project{
+  grid-column: 2/3;
+  margin-right: 0;
+  margin-left: 111px;
+}
+
+.project picture{
+  grid-column: 2/3;
+}
+
+.project .details-project{
+  margin: 259px 111px 259px 0;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.details-project > h3{
+  font-size: 64px;
+  line-height: 76px;
+  margin-bottom: 4px;
+}
+
+.details-project > p{
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 22px;
+}
+
+.details-project .btn{
+  display: inline-block;
+  width: 199px;
+  height: 51px;
+  margin: 0;
+  padding:0 ;
+}
+
+.experiences-content{
+  margin-left: 345px;
+  margin-right: 345px;
+}
+
+.experiences-content .experience h3{
+  font-size: 72px;
+  line-height: 80px;
+  margin-bottom: 16px;
+}
+
+.experiences-content .experience p {
+  margin: 16px 0;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.experiences-content .experience .experience-description{
+  font-size: 24px;
+  line-height: 38.83px;
+  font-weight: 500;
+}
+
+.workWithMe .wrapper .workWithMe-content {
+  margin-left: 345px;
+  margin-right: 345px;
+}
+
+.workWithMe-content h3{
+  font-size: 64px;
+  line-height: 76px;
+  font-weight: 700;
+}
+
+.workWithMe-content h4{
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.social-content{
+  margin-left: 89px;
+  margin-right: 89px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-content a,
+.social-content p,
+.social-content .social-container{
+ display: inline-block;
+}
+
+.social-content a{
+  margin-right: 40px;
+}
+
+.social-content a:last-of-type{
+  margin-right: 0;
+}

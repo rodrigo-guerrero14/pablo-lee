@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
+
+body{
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper{
+  max-width: 360px;
+  margin: auto;
+  padding: 0 22px;
+}
+
+.header-content{
+  /* padding: 20px 22px;*/
+  position: relative;
+}
+
+.header-content h1{
+  color: #90B4CE;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+  margin: 20px 0 20px 0;
+}
+
+.header-content img{
+  margin: 20px 0 20px 0;
+  position: absolute;
+  right: 0;
+}
+
+.header-content input{
+  opacity: 0;
+  height: 24px;
+  margin: 20px 0;
+  position: absolute;
+  right: 0;
+  width: 24px;
+  z-index: 2;
+}
+
+.header-content input:checked ~ .hamburger{
+  /* transform: scale(1.5); */
+  animation: ham 800ms;
+}
+
+.header-content input:not(:checked) ~ .hamburger{
+  /* transform: scale(1.5); */
+  animation: ham-reverse 800ms;
+}
+
+.header-content input:checked ~ #nav{
+  margin-top: 0;
+}
+
+.header-content .nav{
+  width: 100%;
+  margin-top: -105px;
+  transition-duration: 600ms;
+}
+
+.header-content .nav ul{
+  display: flex;
+  padding:0;
+  margin: 0;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 700;
+  color: #90B4CE;
+}
+
+.header-content .nav ul li{
+  display: inline-block;
+}
+
+.header-content .nav ul li a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-content .nav ul li:hover{
+  color: #2B79BD;
+  border-bottom: 4px solid #2B79BD;
+  transition: ease 200ms;
+}
+
+.main-content{
+  padding: 0 22px;
+}
+
+.whoIAm{
+  margin-top: 50px;
+}
+
+.whoIAm-content{
+  padding: 32px 0;
+}
+
+.whoIAm-content h2{
+  margin: 16px 0 8px 0;
+  color: #094067;
+
+}
+
+.whoIAm-content p:first-of-type{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+}
+
+.whoIAm-content p {
+  color: #5F6C7B;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  background-color: #3DA9FC;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  line-height: 27px;
+  padding: 12px 64px;
+  width: 316px;
+}
+
+.btn-secondary{
+  background-color: transparent;
+  border: 2px solid #094067;
+  color: #094067;
+}
+
+.projects{
+  background-color: #D8EEFE;
+}
+
+.projects-content{
+  display: grid;
+  padding: 128px 0;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.project{
+  padding: 80px 0;
+}
+
+.project h3{
+  color: #094067;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  line-height: 32px;
+}
+
+.project p{
+  color: #5F6C7B;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
+.experiences,
+.workWithMe,
+.social {
+  background-color: #094067;
+}
+
+h3, h4, h5, p {
+  margin: 0
+}
+
+.experiences-content{
+  color: #fff;
+  padding: 80px 0;
+}
+
+.experiences-content > hr{
+  margin: 16px 0;
+  border: 1px solid #D8EEFE;
+  width: 316px;
+}
+
+.experience{
+  padding-top: 26px;
+  margin-bottom: 16px;
+}
+
+.experience h4{
+  line-height: 32px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.experience p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.experience p span{
+  display: inline-block;
+  color: #D8EEFE;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.workWithMe{
+  padding: 64px 0;
+}
+
+.workWithMe h3{
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  font-style: normal;
+  margin-bottom: 32px;
+}
+
+.workWithMe h4{
+  color: #EF4565;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+.social-content{
+  padding: 48px 0;
+  color: #90B4CE;
+}
+
+.social-content p{
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.social-content a{
+  display: block;
+  color: #90B4CE;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 24px;
+}
+
+.social-content a:last-child{
+  margin-bottom: 0;
+}
+
+@keyframes ham{
+  0%{
+    transform: rotate(45deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes ham-reverse{
+  0%{
+    transform: rotate(-45deg);
+  }
+  100%{
+    transform: rotate(-180deg);
+  }
+}
