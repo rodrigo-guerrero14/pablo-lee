@@ -40,9 +40,14 @@
   margin-top: 0;
 }
 
-.whoIAm .wrapper {
+/* .whoIAm .wrapper {
   margin: 80px 345px;
   padding:0 ;
+} */
+
+.whoIAm .wrapper {
+margin: 80px 150px;
+padding:0 ;
 }
 
 .whoIAm .wrapper .whoIAm-content{
@@ -116,8 +121,8 @@
 }
 
 .experiences-content{
-  margin-left: 345px;
-  margin-right: 345px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .experiences-content .experience h3{
@@ -139,8 +144,8 @@
 }
 
 .workWithMe .wrapper .workWithMe-content {
-  margin-left: 345px;
-  margin-right: 345px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .workWithMe-content h3{
@@ -173,4 +178,21 @@
 
 .social-content a:last-of-type{
   margin-right: 0;
+}
+
+@media screen and (min-width:1440px){
+  .whoIAm .wrapper {
+    margin: 80px 345px;
+    padding:0 ;
+  }
+
+  .experiences-content{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .workWithMe .wrapper .workWithMe-content {
+    margin-left: 150;
+    margin-right: 150px;
+  }
 }
