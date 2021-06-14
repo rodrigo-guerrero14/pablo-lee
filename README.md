@@ -1,7 +1,9 @@
 <div align="center">
 <img width="120px"  src="https://raw.githubusercontent.com/no-te-rindas/logo/main/Logo/LeonidasEsteban-destello-envolvente-cuadrada.png" />
 </div>
+
 # Portafolio Pablo Lee
+
 Landing page con diseño responsivo, se ha desarrollado Mobile first, para facilitar su uso en dispositivos pequeños.
 
 ## 🕵‍️ Mis objetivos
